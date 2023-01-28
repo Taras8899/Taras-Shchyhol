@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.wrapper-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+aside {
+  width: 20%;
+  display: flex;
+}
+
+.aside-container {
+  width: 100%;
+}
+
+main {
+  width: 50%;
+  display: flex;
+}
+.wrapper {
+  width: 100%;
+}
+.side-bar-right {
+  width: 100%;
+}
+
+.Semantic-html {
+  width: 100%;
+}
+
+.container-2 {
+  display: flex;
+}
