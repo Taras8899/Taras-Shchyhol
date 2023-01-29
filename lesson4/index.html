@@ -1,87 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <body>
-    <header>
-      <span class="container">
-        <a href=""><img src="" alt="logo-site" />hbhbjhbh</a>
+    <header class="header">
+      <span class="logo">
+        <a href="https://beetroot.academy" target="_blank"
+          ><img
+            src="lesson2/accest/Beetroot.png"
+            width="100px"
+            height="70px"
+            alt="logo"
+        /></a>
       </span>
-<span></span>
-      <nav>
-        <ul>
-          <li>Новини</li>
-          <li>Статьї</li>
-          <li>Література</li>
+      <nav class="wrapper-nav-list">
+        <ul class="nav-list">
+          <li>
+            <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+              >HTML</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/css/default.asp" target="_blank"
+              >CSS</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/js/default.asp" target="_blank"
+              >JavaScript</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
-<div>
-  
-</div>
-    <aside>
-            <h3>Підручник</h3>
+
+    <div class="container">
+      <div class="aside-wrapper">
+        <aside class="aside">
+          <h3>Assistans</h3>
           <ul>
-            <li>уцапк</li>
-            <li>уцваис</li>
-            <li>акуперкное</li>
-            <li>пурк</li>
-            <li>куерн</li>
+            <li><a href="#semantic">What are Semantic Elements?</a></li>
+            <li><a href="#semantic-elements">Semantic Elements in HTML</a></li>
+            <li><a href="#HTML">HTML section Element</a></li>
+            <li><a href="#article">HTML article Element</a></li>
           </ul>
-    </aside>
+        </aside>
+      </div>
 
-    <div class="wrapper-2">
-   
+      <main class="wrapper-2">
+        <header class="main-header">
+          <h1>HTML Semantic Elements</h1>
+        </header>
+        <section id="semantic">
+          <h1>What are Semantic Elements?</h1>
+          <p>
+            A semantic element clearly describes its meaning to both the browser
+            and the developer.
+            <span></span>
+            Examples of non-semantic elements: div and span - Tells nothing
+            about its content.
+            <span></span>
+            Examples of semantic elements: form table and article - Clearly
+            defines its content.
+          </p>
+        </section>
+        <span></span>
+        <section id="semantic-elements">
+          <h1>Semantic Elements in HTML</h1>
+          <p>
+            In HTML there are some semantic elements that can be used to define
+            different parts of a web page:
+          </p>
 
-      <main>
-        <div class="wrapper">
-            <h1>Семантичні елементи HTML</h1>
-          <section class="Semantic-html">
-          <h2>Що таке семантичні елементи?</h2>
-        <p>Семантичний елемент чітко описує своє значення як для браузера, так і для розробника.
-                <span></span>
-            Приклади несемантичних елементів: <div>і <span>- нічого не говорить про його зміст.
-                <span></span>
-            Приклади семантичних елементів: <form>, <table>, і <article>- Чітко визначає його зміст.</p>
-          </section>
+          <div class="table-sem-elements">
+            <img src="accest/table-sem.gif" alt="table-semantic" />
+          </div>
 
-          <section>
-            <h2>Семантичні елементи в HTML</h2>
-            <p>Багато веб-сайтів містять HTML-код, наприклад: <div id="nav"> <div class="header"> <div id="footer"> для позначення навігації, верхнього та нижнього колонтитулів.
-<span></span>
-                У HTML є деякі семантичні елементи, які можна використовувати для визначення різних частин веб-сторінки: 
-            </p>
-<div class="container-2">
+          <div class="tag-list">
+            <ul>
+              <li>article</li>
+              <li>aside</li>
+              <li>details</li>
+              <li>figcaption</li>
+              <li>figure</li>
+              <li>foote</li>
+              <li>header</li>
+              <li>main</li>
+              <li>mark</li>
+              <li>nav</li>
+              <li>section</li>
+              <li>summary</li>
+              <li>time</li>
+            </ul>
+          </div>
+        </section>
+        <span></span>
+        <span></span>
+        <span></span>
+        <section id="HTML">
+          <h2>HTML section Element</h2>
+          <p>
+            The section element defines a section in a document. According to
+            <span></span>
+            W3C's HTML documentation: "A section is a thematic grouping of
+            content, typically with a heading."
+            <span></span>
+            Examples of where a section element can be used:
+          </p>
+          <ul>
+            <li>Chapters</li>
+            <li>Introduction</li>
+            <li>News items</li>
+            <li>Contact information</li>
+          </ul>
+          <p>
+            A web page could normally be split into sections for introduction,
+            content, and contact information.
+          </p>
+        </section>
+        <span></span>
+        <section id="article">
+          <h2>HTML article Element</h2>
+          <p>
+            The article element specifies independent, self-contained content.
+            An article should make sense on its own, and it should be possible
+            to distribute it independently from the rest of the web site.
+            Examples of where the article element can be used:
+          </p>
 
-    <ul>
-        <li> Article </li>
-        <li>aside</li>
-        <li>details</li>
-        <li>figcaption</li>
-        <li>figure</li>
-        <li>footer</li>
-        <li>header</li>
-        <li>main</li>
-        <li>mark/li>
-        <li>nav</li>
-        <li>section</li>
-        <li>summary</li>
-        <li>time</li>
-    </ul>
-
-    <aside>
-        <img src="img_sem_elements.gif" alt="">
-    </aside>
-</div>
-          </section>
-        </div>
+          <ul>
+            <li>Forum posts</li>
+            <li>Blog posts</li>
+            <li>User comments</li>
+            <li>Product cards</li>
+            <li>Newspaper articles</li>
+          </ul>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/i3f6tdjOCSU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
       </main>
-      </aside>
+
+      <div class="aside-wrapper">
+        <aside class="aside">
+          <p><strong>Useful links</strong></p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank"
+                >stackoverflow</a
+              >
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/" target="_blank"
+                >developer.mozilla</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </div>
     </div>
+
+    <footer class="footer">
+      <div class="wrapper-avtor">
+        <p>Автор сайту</p>
+        <p>
+          <a href="lesson2/Index.html" target="_blank">
+            <strong> Тарас Щиголь</strong>
+          </a>
+        </p>
+      </div>
+      <div class="wrapper-navbar">
+        <a href="" target="_blank">
+          <img class="icon" src="lesson2/accest/instagram.png" alt="instagram"
+        /></a>
+        <a href="" target="_blank">
+          <img class="icon" src="lesson2/accest/facebook.png" alt="facebook"
+        /></a>
+
+        <a href="" target="_blank">
+          <img class="icon" src="lesson2/accest/twitter-sign.png" alt="twitter"
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
