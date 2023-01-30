@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <form class="main">
+          <div class="field">
+            <label for="n">Повне імя</label>
+            <input type="text" name="n" required />
+          </div>
+          <div class="field">
+            <label for="ln">Email</label>
+            <input type="email" name="ln" required placeholder="email" />
+          </div>
+          <div class="field">
+            <label for="a">Пароль</label>
+            <input type="password" name="a" required placeholder="password" />
+            <div class="field">
+              <label for="passwordrepit">Повторіть пароль</label>
+              <input type="password" name="passwordrepit" id="" required />
+            </div>
+            <div class="field">
+              <label for="gender">Стать</label>
+              <input type="radio" name="gender" /> чоловіча
+              <input type="radio" name="gender" /> жіноча
+            </div>
+            <label for="age">Вік</label>
+            <input
+              type="number"
+              name="age"
+              step="1"
+              min="18"
+              max="120"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="course">Курс</label>
+            <input list="course" name="course" required />
+            <datalist id="course">
+              <option value="front-end"></option>
+              <option value="back-end"></option>
+              <option value="designer"></option>
+            </datalist>
+          </div>
+          <div class="field">
+            <label for="adress">Повна адреса</label>
+            <textarea
+              name="adress"
+              id=""
+              cols=""
+              rows="5"
+              placeholder="Країна, регіон, місто/селище, вулиця"
+            ></textarea>
+          </div>
+          <div class="field">
+            <label for="checbox"
+              >Я погоджуюсь з обробкою персональних даних</label
+            >
+            <input type="checkbox" name="checbox" required />
+          </div>
+          <div class="button">
+            <input type="reset" value="очистить форму" />
+            <input type="submit" value="отправить" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
