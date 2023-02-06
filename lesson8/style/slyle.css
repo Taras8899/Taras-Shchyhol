@@ -43,6 +43,48 @@ form div:nth-child(even) {
   background: #7a7593;
 }
 
+.check-list__item {
+  display: block;
+  width: 534px;
+  font-size: 18px;
+  padding: 14px 0;
+  margin: 0 auto;
+  color: #ffffff;
+  background: #88839e;
+}
+
+.check-list__item {
+  position: relative;
+  white-space: nowrap;
+}
+
+.check-list__description {
+  font-size: 11px;
+  position: relative;
+  bottom: 2px;
+}
+
+input:checked + .check-list__item {
+  color: #9b96ac;
+}
+
+input:checked + .check-list__item:after {
+  border-top: 1px solid #9b96ac;
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  left: 0;
+}
+
+.check-list__description::before {
+  content: "(";
+}
+
+.check-list__description::after {
+  content: ")";
+}
+
 .container {
   width: 534px;
   height: 45px;
@@ -55,7 +97,6 @@ form div:nth-child(even) {
 
 .small-text {
   font-size: 11px;
-  padding-top: 10px;
 }
 
 .small-text::before {
@@ -75,11 +116,6 @@ form div:nth-child(even) {
 .container:active {
   background: rgba(255, 137, 132, 1);
   transition: background 0s;
-}
-
-input:checked + label {
-  text-decoration: line-through;
-  color: #9b96ac;
 }
 
 .button {
