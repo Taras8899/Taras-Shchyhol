@@ -37,6 +37,10 @@ body {
   padding-right: 20px;
 }
 
+.nav-bar li:last-child {
+  padding-right: 0;
+}
+
 .nav-bar ul li a:visited {
   color: #ff9900;
 }
