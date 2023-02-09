@@ -1,0 +1,262 @@
+body {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(60, 60, 60, 1);
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #bdbdbd;
+}
+.wrapper {
+  width: 1170px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.header-navigation ul {
+  display: flex;
+}
+
+.header-navigation ul li {
+  padding-right: 30px;
+}
+
+.header-navigation ul li:last-child {
+  padding-right: 0;
+}
+
+.header-navigation ul li a:hover {
+  color: rgba(24, 181, 220, 1);
+}
+
+.header-navigation ul li a:visited {
+  color: rgba(24, 181, 220, 1);
+}
+
+.button {
+  margin-left: auto;
+  width: 130px;
+  height: 42px;
+  background-color: #rgba(255, 255, 255, 1);
+  border: 1px solid #3c3c3c;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #18b5dc;
+  border: 1px solid #18b5dc;
+}
+
+.main {
+  width: 100%;
+  height: 835px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6f6f6;
+}
+
+.main-content {
+  width: 1170px;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+#divider {
+  width: 45px;
+  height: 4px;
+  margin-bottom: 40px;
+  background: #dddbdb;
+}
+
+.main-paragraph {
+  margin-bottom: 60px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.team-card {
+  width: 1170px;
+  height: 333px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.team-card-photo {
+  width: 270px;
+  height: 333px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.team-card-photo:last-child {
+  margin-right: 0;
+}
+
+.team-card-photo:hover .hover {
+  visibility: visible;
+}
+
+.img {
+  position: absolute;
+}
+
+.hover {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #18b5dc;
+  visibility: hidden;
+}
+
+.hover-icon {
+  width: 134px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: #5dcbe6;
+}
+
+.icon-white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-blue {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.icon:hover .icon-blue {
+  visibility: visible;
+}
+
+.icon:hover {
+  background: #ffffff;
+}
+
+figcaption {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.name {
+  font-size: 18px;
+  line-height: 22px;
+  color: #282528;
+}
+
+.status {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #646464;
+}
+
+.footer {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-bottom: 28px;
+}
+
+.footer-navigation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.footer-navigation li {
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 30px;
+  color: #3c3c3c;
+}
+
+.footer-navigation li:last-child {
+  padding-right: 0;
+}
+
+.footer-navigation li a:hover {
+  color: rgba(24, 181, 220, 1);
+}
+
+.footer-navigation li a:visited {
+  color: rgba(24, 181, 220, 1);
+}
+
+.footer-icon-navigation {
+  width: 250px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon-navigation li {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #18b5dc;
+}
+
+.footer-icon-navigation li:hover .icon-blue {
+  visibility: visible;
+}
+
+.footer-icon-navigation li:hover {
+  background: #18b5dc;
+}

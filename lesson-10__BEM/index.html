@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <a class="header__logo" href="">
+          <img src="assets/logo/header-logo.svg" alt="logo" />
+        </a>
+
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="1">SERVICES</a></li>
+            <li><a href="2">ABOUT</a></li>
+            <li><a href="3">CONTACTS</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="button">CALLBACK</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-content">
+        <h1>WHO WE ARE</h1>
+        <div id="divider"></div>
+        <p class="main-paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor <br />
+          incididunt ut labore et dolore magna aliqua.
+        </p>
+        <section class="team-card">
+          <figure class="team-card-photo">
+            <img
+              class="img"
+              src="assets/team-photo/taras-shchyhol.jpg"
+              width="270px"
+              height="270px"
+              alt="taras-schyhol"
+            />
+
+            <div class="hover">
+              <div class="hover-icon">
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/twitter-white.svg"
+                    alt="" />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/twitter-blue.svg"
+                    alt=""
+                /></a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/facebook-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/facebook-blue.svg"
+                    alt=""
+                  />
+                </a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/instagram-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/instagram-blue.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <figcaption>
+              <p class="name">Taras Shchyhol</p>
+              <p class="status">Lead designer</p>
+            </figcaption>
+          </figure>
+          <figure class="team-card-photo">
+            <img
+              class="img"
+              src="assets/team-photo/alex-cutter.png"
+              alt="alex-cutter"
+            />
+            <div class="hover">
+              <div class="hover-icon">
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/twitter-white.svg"
+                    alt="" />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/twitter-blue.svg"
+                    alt=""
+                /></a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/facebook-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/facebook-blue.svg"
+                    alt=""
+                  />
+                </a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/instagram-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/instagram-blue.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+
+            <figcaption>
+              <p class="name">Alex Cutter</p>
+              <p class="status">Developer</p>
+            </figcaption>
+          </figure>
+          <figure class="team-card-photo">
+            <img
+              class="img"
+              src="assets/team-photo/elena-simpson.png"
+              alt="elena-simpson"
+            />
+
+            <div class="hover">
+              <div class="hover-icon">
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/twitter-white.svg"
+                    alt="" />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/twitter-blue.svg"
+                    alt=""
+                /></a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/facebook-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/facebook-blue.svg"
+                    alt=""
+                  />
+                </a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/instagram-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/instagram-blue.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <figcaption>
+              <p class="name">Elena Simpson</p>
+              <p class="status">Artist</p>
+            </figcaption>
+          </figure>
+          <figure class="team-card-photo">
+            <img
+              class="img"
+              src="assets/team-photo/lily-allen.png"
+              alt="lily-allen"
+            />
+
+            <div class="hover">
+              <div class="hover-icon">
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/twitter-white.svg"
+                    alt="" />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/twitter-blue.svg"
+                    alt=""
+                /></a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/facebook-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/facebook-blue.svg"
+                    alt=""
+                  />
+                </a>
+                <a class="icon" href=""
+                  ><img
+                    class="icon-white"
+                    src="assets/social-icon/instagram-white.svg"
+                    alt=""
+                  />
+                  <img
+                    class="icon-blue"
+                    src="assets/social-icon/instagram-blue.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <figcaption>
+              <p class="name">Lily Allen</p>
+              <p class="status">Graphic Designer</p>
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <a class="footer__logo" href="">
+        <img src="assets/logo/header-logo.svg" alt="logo" />
+      </a>
+
+      <ul class="footer-navigation">
+        <li><a href="#">HOME</a></li>
+        <li><a href="1">SERVICES</a></li>
+        <li><a href="2">ABOUT</a></li>
+        <li><a href="3">CONTACTS</a></li>
+      </ul>
+
+      <ul class="footer-icon-navigation">
+        <li class="icons">
+          <a href="">
+            <img
+              class="icon-white"
+              src="assets/social-icon/twitter-blue.svg"
+              alt="twitter" />
+            <img
+              class="icon-blue"
+              src="assets/social-icon/twitter-white.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              class="icon-white"
+              src="assets/social-icon/facebook-blue.svg"
+              alt="facebook" />
+            <img
+              class="icon-blue"
+              src="assets/social-icon/facebook-white.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              class="icon-white"
+              src="assets/social-icon/instagram-blue.svg"
+              alt="instagram" />
+            <img
+              class="icon-blue"
+              src="assets/social-icon/instagram-white.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              class="icon-white"
+              src="assets/social-icon/linkedi-blue.svg"
+              alt="linkedin" />
+            <img
+              class="icon-blue"
+              src="assets/social-icon/linkedini-white.svg"
+              alt="linkedin"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              class="icon-white"
+              src="assets/social-icon/telegram-blue.svg"
+              alt="telegram" />
+            <img
+              class="icon-blue"
+              src="assets/social-icon/telegram-white.svg"
+              alt="telegram"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
