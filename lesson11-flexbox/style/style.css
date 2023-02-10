@@ -1,0 +1,271 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 46px;
+}
+
+.nav-bar {
+  width: 352px;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar ul li {
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.nav-bar li:last-child {
+  padding-right: 0;
+}
+
+.nav-bar ul li a:visited {
+  color: #ff9900;
+}
+
+a {
+  color: rgba(47, 40, 30, 1);
+  text-decoration: none;
+}
+
+.buttons {
+  width: 252px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 110px;
+  height: 46px;
+  margin-right: 32px;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #c0c2c5;
+  border: 1px solid #ffffff;
+}
+
+.btn-primary {
+  width: 110px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background: #ff9900;
+  border: 1px solid #ff9900;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #c0c2c5;
+  border: 1px solid #ffffff;
+}
+
+.container-firstscrin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.first-screen {
+  width: 1200px;
+  height: 495px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-screen__leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 301px;
+  margin: auto 0;
+}
+
+.first-screen__leftside h1 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.first-screen__leftside p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-getstarted {
+  width: 180px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #ff9900;
+  border: 1px solid #ff9900;
+  border-radius: 4px;
+}
+
+.btn-getstarted:hover {
+  cursor: pointer;
+  background-color: #c0c2c5;
+  border: 1px solid #ffffff;
+}
+
+.first-screen__rightside {
+  width: 644px;
+  height: 495px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.img-oval {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-people {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.design-tools {
+  width: 100%;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.design-tools h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 50px;
+}
+
+.background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.design-tools ul {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.design-tools ul li {
+  width: 270px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: start;
+}
+
+.design-tools ul li img {
+  margin-bottom: 30px;
+}
+
+.design-tools ul li h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  width: 1200px;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list h3 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-list ul li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 15px;
+}
+
+.footer-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footer__form {
+  width: 340px;
+  height: 210px;
+}
+
+.footer__form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__form form h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.footer__form form input {
+  width: 340px;
+  height: 50px;
+  margin-bottom: 20px;
+}
