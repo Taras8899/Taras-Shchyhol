@@ -111,9 +111,30 @@ a {
   height: 333px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+figcaption .name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: start;
+}
+
+figcaption .position {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: start;
 }
 
 .team-card-photo:last-child {
