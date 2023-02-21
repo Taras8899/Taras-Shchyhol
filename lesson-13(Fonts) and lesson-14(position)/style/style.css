@@ -3,6 +3,7 @@
 @import url(../../assets/fonts/Francois_One/FrancoisOne.css);
 @import url(../../assets/fonts/PT_Sans/PT_Sans.css);
 @import url(../../assets/fonts/Tourney/Tourney.css);
+@import url(/assets/fonts/roboto/roboto.css);
 
 * {
   box-sizing: border-box;
@@ -163,4 +164,103 @@ a {
 
 .italic-text {
   font-style: italic;
+}
+
+.extra {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.extra__wrapper {
+  width: 1200px;
+}
+
+.extra__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.extra__grid-container {
+  width: 1200px;
+  height: 430px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-gap: 30px 30px;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, 180px);
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 270px;
+  height: 180px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.front {
+  z-index: 1;
+  position: relative;
+  background-color: #c9c9c9;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  backface-visibility: hidden;
+  transition: transform 0.3s cubic-bezier(0.2, 0.85, 0.4, 1.275);
+}
+
+.back {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+  background-color: rgba(26, 26, 26, 1);
+  transform: rotateY(-180deg);
+  transition: transform 0.3s cubic-bezier(0.2, 0.85, 0.4, 1.275);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.roboto {
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
 }

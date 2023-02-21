@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>FormStyle</title>
+  </head>
+  <body>
+    <form class="form" method="get">
+      <header>
+        <h2>Create an account</h2>
+      </header>
+      <div class="form__input-container">
+        <div class="form__input">
+          <label for="first-name"> First Name </label>
+          <input type="text" id="first-name" required />
+        </div>
+
+        <div class="form__input">
+          <label for="last-name"> Last Name </label>
+          <input type="text" id="last-name" name="last-name" />
+        </div>
+      </div>
+
+      <div class="form__input">
+        <label for="email"> Email</label>
+        <input class="form__input-email" type="email" id="email" name="email" />
+        <div class="form__item-message">
+          <span class="form__item-valid"
+            >We'll never share your email with anyone else.</span
+          >
+          <span class="form__item-invalid">Invalid value</span>
+        </div>
+      </div>
+
+      <div class="form__checkbox-container">
+        <label class="form__checkbox"
+          >Male
+          <input type="radio" checked="checked" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="form__checkbox"
+          >Female
+          <input type="radio" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+
+      <div class="form__input-container">
+        <div class="form__input">
+          <label for="country">Country</label>
+          <select
+            name="Country"
+            class="country"
+            placeholder="Select"
+            id="country"
+          >
+            <option value disabled selected>Selected</option>
+            <option value="1">Ukraine</option>
+            <option value="2">Polska</option>
+            <option value="3">Germany</option>
+            <option value="4">France</option>
+            <option value="5">USA</option>
+            <option value="6">Brasil</option>
+          </select>
+        </div>
+
+        <div class="form__input">
+          <label for="city">City</label>
+          <input type="text" required id="city" name="city" />
+        </div>
+      </div>
+
+      <button type="submit" class="form-button">Sing up</button>
+      <p class="form-reminder">
+        By clicking the 'Sign Up' button, you confirm that you accept our <br />
+        <a href="" target="_blank">Terms of Use</a> and
+        <a href="" target="_blank">Privacy Policy</a>
+      </p>
+
+      <div class="form__divider"></div>
+
+      <div class="form__footer">
+        <span>Have an account?</span>
+        <a href="">Log in</a>
+      </div>
+    </form>
+  </body>
+</html>
