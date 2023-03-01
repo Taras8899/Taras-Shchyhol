@@ -149,6 +149,10 @@ a {
   justify-content: center;
   margin-bottom: 100px;
 
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+  }
+
   @media screen and (max-width: 480px) {
     margin-bottom: 20px;
   }
@@ -262,8 +266,6 @@ a {
     width: 480px;
     justify-content: center;
     flex-wrap: wrap;
-
-    margin-bottom: 50px;
 
     &__rightside {
       order: -1;

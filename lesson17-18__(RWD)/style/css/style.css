@@ -134,6 +134,11 @@ a {
   justify-content: center;
   margin-bottom: 100px;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 0;
+  }
+}
 @media screen and (max-width: 480px) {
   .container {
     margin-bottom: 20px;
@@ -238,7 +243,6 @@ a {
     width: 480px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 50px;
   }
   .first-screen__rightside {
     order: -1;
@@ -469,4 +473,4 @@ a {
   .footer-container__form form input {
     width: 100%;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
