@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "ReadHatDisplay Regular";
+  src: url(RedHatDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "ReadHatDisplay SemiBold";
+  src: url(RedHatDisplay-SemiBold.ttf);
+}
