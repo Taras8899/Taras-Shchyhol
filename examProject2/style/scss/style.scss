@@ -513,7 +513,7 @@ button:hover {
     }
 
     &-container {
-      width: 90%;
+      width: 80%;
     }
 
     &-contact {
@@ -532,6 +532,9 @@ button:hover {
       justify-content: space-between;
 
       & li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         text-align: start;
       }
     }
@@ -542,6 +545,7 @@ button:hover {
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 26px;
 
@@ -569,6 +573,11 @@ button:hover {
   &:hover {
     fill: #7e5aff;
   }
+}
+
+.iconContact {
+  width: 10px;
+  height: 10px;
 }
 
 .swiper {

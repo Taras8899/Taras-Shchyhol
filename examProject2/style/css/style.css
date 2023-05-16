@@ -445,7 +445,7 @@ button:hover {
   margin-bottom: 42px;
 }
 .footer__form-container {
-  width: 90%;
+  width: 80%;
 }
 .footer__form-contact {
   width: 100%;
@@ -462,6 +462,9 @@ button:hover {
   justify-content: space-between;
 }
 .footer__form-contacts li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   text-align: start;
 }
 .footer__inputs {
@@ -469,6 +472,7 @@ button:hover {
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 26px;
 }
@@ -492,6 +496,11 @@ button:hover {
 }
 .icon:hover {
   fill: #7e5aff;
+}
+
+.iconContact {
+  width: 10px;
+  height: 10px;
 }
 
 .swiper {

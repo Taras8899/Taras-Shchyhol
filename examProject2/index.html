@@ -407,23 +407,50 @@
         <div class="footer__form-container">
           <div class="footer__form-contact">
             <ul class="footer__form-contacts">
-              <li>91 Nolan Extensions Suite 670</li>
-              <li><a href="tel:+0013568682454">+001 356-8680-2454</a></li>
               <li>
+                <svg class="iconContact">
+                  <use
+                    xlink:href="/assets/icons/footerIcons/spriteFooter.svg#location"
+                  ></use>
+                </svg>
+                91 Nolan Extensions Suite 670
+              </li>
+              <li>
+                <svg class="iconContact">
+                  <use
+                    xlink:href="/assets/icons/footerIcons/spriteFooter.svg#telephone"
+                  ></use>
+                </svg>
+                <a href="tel:+0013568682454"> +001 356-8680-2454</a>
+              </li>
+              <li>
+                <svg class="iconContact">
+                  <use
+                    xlink:href="/assets/icons/footerIcons/spriteFooter.svg#service"
+                  ></use>
+                </svg>
                 <a href="email:montichello@service.com"
                   >montichello@service.com</a
                 >
               </li>
-              <li>07:05AM to 19:30PM</li>
+
+              <li>
+                <svg class="iconContact">
+                  <use
+                    xlink:href="/assets/icons/footerIcons/spriteFooter.svg#date"
+                  ></use>
+                </svg>
+                07:05AM to 19:30PM
+              </li>
             </ul>
 
             <form class="footer__inputs">
-              <label for="">
-                <input type="text" placeholder="User name" />
+              <label>
+                <input type="text" placeholder="User name" required />
               </label>
 
               <label>
-                <input email="text" placeholder="Email" />
+                <input type="email" placeholder="Email" required />
               </label>
 
               <button type="submit" class="footer__inputs-button">
