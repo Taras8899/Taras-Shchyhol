@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   box-sizing: border-box;
   margin: 0;
@@ -40,7 +43,11 @@ button:hover {
   border-radius: 50%;
 
   &:hover {
-    border: 1px solid #7e5aff;
+    border: 1px solid #5ad3ff;
+
+    & .icon {
+      fill: #5ad3ff;
+    }
   }
 }
 
@@ -76,7 +83,7 @@ button:hover {
         color: #ffffff;
 
         &:hover {
-          color: #7e5aff;
+          color: #5ad3ff;
         }
       }
     }
